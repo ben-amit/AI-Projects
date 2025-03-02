@@ -1,0 +1,13 @@
+XXXXXXXXXXX
+X   X     X
+X X X X   X
+X X X X   X
+X X X X   X
+X X   X   X
+X X X X   X
+X         X
+X         X
+X         X
+XXXXXXXXXXX
+start 1, 9
+end 9, 1
