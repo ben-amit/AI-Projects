@@ -314,7 +314,7 @@ def a_star(maze, start, end):
 
 # User Interface:
 
-# In[14]:
+# In[13]:
 
 
 file_name = input("Enter the maze file name: ").strip()
@@ -352,4 +352,10 @@ elif choice == "5":
     path = a_star(maze, start, end)
 else:
     print("Invalid choice. Please enter a number between 1 and 5.")
+
+
+# In[ ]:
+
+
+
 
