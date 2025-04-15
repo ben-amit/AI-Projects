@@ -1,4 +1,3 @@
-
 (define (domain puzzle)
   (:requirements :strips)
   (:predicates
