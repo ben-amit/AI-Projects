@@ -1,12 +1,7 @@
-import os
 import random
 
 
 def create_domain(filename="domain.pddl"):
-    # if os.path.exists(filename):
-    #     print(f"{filename} already exists.")
-    #     return
-
     domain_text = """(define (domain puzzle)
   (:requirements :strips)
   (:predicates
@@ -84,10 +79,6 @@ def generate_at_lines(board, N):
 
 
 def create_problem(N, filename="problem.pddl"):
-    # if os.path.exists(filename):
-    #     print(f"{filename} already exists.")
-    #     return
-
     # Starting config
     board = list(range(1, N**2))
     random.shuffle(board)
